@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Css file-->
+      <link rel="stylesheet" href="./css/style.css">
+      <!--Font awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tickets</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class = "navbar">
+            <div class = "navbar__top">
+                <div class="navbar__top--brand">
+                    <span>The</span><span>Art</span><span>Museum</span>
+                </div>
+                <div class="navbar__top--page">Plan Your Visit</div>
+                <button  class="navbar__top--toggler">
+                    <div class="line line__1"></div>
+                    <div class="line line__2"></div>
+                    <div class="line line__3"></div>
+                </button>
+            </div>
+
+            <div class = "navbar__collapse">
+                <ul class = "navbar__collapse--nav">
+                    <div class="input__wrapper">
+                        <i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <a href = "#" class="weight">Exhibitions & Events</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chess-board"></i>
+                        <a href = "#" class="weight">Artist & Artworks</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cube"></i>
+                        <a href = "#" class = "weight">Collections</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-ticket"></i>
+                        <a href = "#">Plan Your Visit</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-id-card"></i>
+                        <a href = "#">Become a Member</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gift"></i>
+                        <a href = "#" class="weight">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="title_wrapper">
+        <span>Skip The Line.</span>
+        <span>Purchase Tickets.</span>
+        <span class="red_title">All exhibitions audio tours,and films included in the price of admission.</span>
+    </div>
+    <div class="date">
+        <span>Today</span>
+        <span class="active_day">Tomorrow</span>
+        <span>Other</span>
+    </div>
+    <div class="line_date"></div>
+    <div class="actual_date">
+        <span class="actually_tomorrow"></span>
+        <span>Open 10:30am-5:30pm</span>
+    </div>
+    <div class="adult">
+        <div class="type">
+            Adult
+        </div>
+        <div class="counter">
+            <span class="add minus">-</span>
+            <span class="sum"></span>
+            <span class="add plus">+</span>
+        </div>
+    </div>
+    <div class="senior">
+        <div class="type">
+            <span>Senior</span>
+            <span class="subtitle">65+ with ID</span>
+        </div>
+        <div class="counter">
+            <span class="add">-</span>
+            <span class="sum gray">0</span>
+            <span class="add">+</span>
+        </div>
+    </div>
+    <div class="student">
+        <div class="type">
+            <span>Student</span>
+            <span class="subtitle">with ID</span>
+        </div>
+        <div class="counter">
+            <span class="add">-</span>
+            <span class="sum gray">0</span>
+            <span class="add">+</span>
+        </div>
+    </div>
+    <div class="line_total"></div>
+    <div class="total_counter">
+        <div class="total_title">Total</div>
+        <div class="subtotal"></div>
+    </div>
+    <button class="payment">
+        Continue to Payment
+    </button>
+    <!--Javascript-->
+    <script src="./js/script.js"></script> 
+</body>
+</html>

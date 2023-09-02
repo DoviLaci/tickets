@@ -1,0 +1,23 @@
+@mixin transition{
+    transition: all 0.3s ease-in-out;
+}
+@mixin transformHover{
+    color: $text_color;
+    font-size: calc(100% + 0.2rem);
+}
+@mixin flex($dir, $content: center, $items: center){
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $content;
+    align-items: $items;
+}
+@mixin desktop{
+    @media(min-width:992px){
+        @content;
+    }
+}
+@mixin tablet{
+    @media(min-width:580px){
+        @content;
+    }
+}
