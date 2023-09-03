@@ -19,7 +19,7 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 1rem;
   font-size: 1.5rem;
 }
 
@@ -166,7 +166,7 @@ body {
 }
 
 .title_wrapper {
-  padding: 0 3rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: start;

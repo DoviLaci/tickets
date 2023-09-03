@@ -20,7 +20,7 @@ body{
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3rem; 
+    padding: 0 1rem; 
     font-size: 1.5rem;
 }
 
@@ -177,7 +177,7 @@ body{
 }
 //title
 .title_wrapper{
-    padding: 0 3rem;
+    padding: 0 1rem;
     @include flex(column,start,start );
     color: $text_color;
     font-size: 2rem;
